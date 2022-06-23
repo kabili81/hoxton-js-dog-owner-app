@@ -75,7 +75,7 @@ function displaydog(dog) {
 
   //  <p>
   let pEl = document.createElement('p')
-  pEl.textContent = ' Lorem,'
+  pEl.textContent = ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,  minima voluptates libero cumque rerum consequatur optio aliquid sint eum maxime illo laborum omnis quo ab rem cupiditate nulla perspiciatis ipsum! '
   //  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
   //  minima voluptates libero cumque rerum consequatur optio aliquid sint
   //  eum maxime illo laborum omnis quo ab rem cupiditate nulla
