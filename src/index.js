@@ -54,6 +54,37 @@ function addDogListItem(dog) {
 function displaydog(dog) {
     dogSection.textContent = ''
 
+   // Add dog info
+
+  // <h2>Mr. Bonkers</h2>
+  let h2El= document.createElement('h2')
+  h2El.textContent = dog.name
+
+  //  <img
+  //  src="https://curriculum-content.s3.amazonaws.com/js/woof-woof/dog_1.jpg"
+  //  alt=""
+  //  />
+  let imgEl = document.createElement('img')
+  imgEl.src = dog.image
+  //  <div class="main__dog-section__desc">
+  let divEl = document.createElement('div')
+  divEl.className = 'main__dog-section__desc'
+  //  <h3>Bio</h3>
+  let h3EL = document.createElement('h3')
+  h3EL.textContent = dog.bio
+
+  //  <p>
+  let pEl = document.createElement('p')
+  pEl.textContent = ' Lorem,'
+  //  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
+  //  minima voluptates libero cumque rerum consequatur optio aliquid sint
+  //  eum maxime illo laborum omnis quo ab rem cupiditate nulla
+  //  perspiciatis ipsum!
+  //  </p>
+  //  </div class="main__dog-section__btn">
+  //  <p><em>Is naughty?</em> yes!</p>
+  //  <button>Good dog!</button>
+
     const pEl = document.createElement('p')
   pEl.textContent = dog.name
 
